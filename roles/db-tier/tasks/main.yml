@@ -1,4 +1,5 @@
-ks file for roles/postgresql
+---
+# tasks file for roles/postgresql
 - name: install postgres
   yum:
     name: postgresql-server
